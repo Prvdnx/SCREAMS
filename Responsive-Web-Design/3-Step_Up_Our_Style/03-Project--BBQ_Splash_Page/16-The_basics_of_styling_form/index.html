@@ -1,0 +1,48 @@
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>Page Form</title>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css">
+        <style>
+            
+            form {
+                background: #efefef;
+                padding: 2em;
+            }
+            
+            /* input */
+            input[type="text"] {
+                margin-bottom: 1em;
+                padding: .25em;
+                border: 0;
+                background: red;
+            }
+            
+            button {
+                background: #333;
+                color: white;
+                border: 0;
+                cursor: pointer;
+            }
+            
+            button:hover {
+                background: #404040;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>forms!</h1>
+        <form action="#" method="post">
+            <label for="fname">First Name:</label>
+            <input id="fname" type="text" required placeholder="Enter your first name">
+            <br>
+            <label for="lname">Last Name:</label>
+            <input id="lname" type="text" required placeholder="Enter your last name">
+            <br>
+            <label for="email">Email:</label>
+            <input id="email" type="email" required placeholder="email">
+            <button type="submit">Send away!</button>
+        </form>
+    </body> 
+</html>
