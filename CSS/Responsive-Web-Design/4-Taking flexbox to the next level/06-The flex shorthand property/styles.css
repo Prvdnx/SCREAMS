@@ -1,0 +1,57 @@
+* { box-sizing: border-box; }
+
+body {
+    margin: 0;
+    background: #2C73D2;
+    color: #fff;
+    text-align: center;
+}
+
+.flex-container {
+    border: 10px solid #F9F871;
+    width: 80%;
+    margin: 0 auto;
+    padding: .25em;
+    
+    display: flex;
+}
+
+.flex-item {
+    background: #8BEE86;
+    margin: .5em;
+    padding: .5em;
+    color: #424656;
+    
+    width: 200px;
+}
+
+.flex-item-1 {
+    background: plum;
+
+/* flex: grow shrink basis; */
+    /* flex: 0 1 auto;
+    flex: 1 1 auto;
+    flex: 1 0 auto;
+    flex: 0 0 auto;
+    flex: 0 1 400px; */
+
+/* same as flex: 1 0; -- this sets grow: 1, flex-basis: 0 */
+    /* flex: 1; */
+
+/* this will automatically set the flex-basis */
+    /* flex: 400px; */
+
+/* set it initial values */
+    /* flex: initial; */
+
+    flex: auto; /* same as setting flex: 1 1 auto; */
+}
+
+
+/* .flex-item-2 {
+    
+}
+
+.flex-item-3 {
+    
+} */
