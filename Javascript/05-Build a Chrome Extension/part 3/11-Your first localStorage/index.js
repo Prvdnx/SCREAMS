@@ -11,11 +11,7 @@ console.log(name)
 // localStorage.clear()
 
 
-<<<<<<< HEAD
 // EXERCISE:
-=======
-
->>>>>>> 3f84f8fa762221b951e0857c0afc578edbd91bd3
 // 1. Save a key-value pair in localStorage
 // 2. Refresh the page. Get the value and log it to the console
 // 3. Clear localStorage
@@ -26,14 +22,11 @@ console.log(name)
 // localStorage.clear()
 // PS: both key and value need to be strings
 
-<<<<<<< HEAD
 // SOLUTION:
 // localStorage.setItem("coursera", "https://www.coursera.org/learn/learn-javascript/ungradedWidget/1N6vl/what-is-localstorage")
 // console.log(localStorage.getItem("coursera"))
 // localStorage.clear();
 
-=======
->>>>>>> 3f84f8fa762221b951e0857c0afc578edbd91bd3
 
 inputBtn.addEventListener("click", function() {
     myLeads.push(inputEl.value)

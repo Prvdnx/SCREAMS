@@ -2,7 +2,6 @@ let myLeads = `["www.awesomelead.com"]`
 
 // 1. Turn the myLeads string into an array
 myLeads = JSON.parse(myLeads)
-<<<<<<< HEAD
 
 // 2. Push a new value to the array
 myLeads.push("www.lead2.com")
@@ -19,15 +18,6 @@ console.log(typeof myLeads)
 
 
 
-=======
-// 2. Push a new value to the array
-myLeads.push("www.lead2.com")
-// 3. Turn the array into a string again
-myLeads = JSON.stringify(myLeads)
-// 4. Console.log the string using typeof to verify that it's a string
-console.log(typeof myLeads)
-
->>>>>>> 3f84f8fa762221b951e0857c0afc578edbd91bd3
 const inputEl = document.getElementById("input-el")
 const inputBtn = document.getElementById("input-btn")
 const ulEl = document.getElementById("ul-el")
