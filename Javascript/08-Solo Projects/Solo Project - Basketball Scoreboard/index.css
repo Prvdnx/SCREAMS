@@ -51,7 +51,7 @@ h3 {
     justify-content: space-around;
 }
 
-.plus button {
+.plus button, #reset {
     font-size: 18px;
     color: #9AABD8;
     background: #1B244A;
@@ -61,6 +61,11 @@ h3 {
     border: 2px solid #9AABD8;
     border-radius: 5px;
     margin: 30px 0px 0 0;
+}
+
+#reset {
+    width: unset;
+        margin: auto 0;
 }
 
 .plus button:hover {
@@ -85,6 +90,11 @@ h3 {
     }
 
     .container div {
+        margin: auto;
+    }
+
+    #reset {
+        width: 80px;
         margin: auto;
     }
 }
