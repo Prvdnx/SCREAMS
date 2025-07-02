@@ -11,7 +11,7 @@ body {
     width: 575;
     margin: auto;
     margin-top: 1px;
-    box-sizing: border-box;
+    border-radius: 10px;  
 }
 
 h3 {
@@ -38,12 +38,11 @@ h3 {
 .score {
     background: #080001;
     display: flex;
-    justify-content: end;
+    justify-content: center;
     align-items: center;
     margin: 0;
     height: 120;
     width: 155;
-    padding-right: 19px;
     box-sizing: border-box;
     border-radius: 5px;
     color: #F94F6D;
