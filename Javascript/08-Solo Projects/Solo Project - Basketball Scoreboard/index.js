@@ -7,6 +7,9 @@ const guestBtn = document.getElementsByClassName("guest-btn")
 const guestScore = document.getElementById("guest-score")
 let gScore = 0
 
+const newGame = document.getElementById("new-game")
+const win =  document.getElementById("win")
+
 for (let btn of homeBtn) {
     btn.addEventListener("click", function() {
         render(btn, homeScore)
@@ -18,6 +21,13 @@ for (let btn of guestBtn) {
         render(btn, guestScore)
     })
 }
+
+newGame.addEventListener("click", function() {
+    gScore = 0; hScore = 0
+    homeScore.innerText = hScore
+    guestScore.innerText = gScore
+    win.innerText = "Welcome!!"
+})
 
 function render(btn, score) {
     let btnScore = Number(btn.innerText);
@@ -38,10 +48,20 @@ function render(btn, score) {
             alert(`Cannot have maximun score above "99"`)
         }
     }
+    winning()
 }
 
-for (let btn of homeBtn) {
-    console.log(btn)
+function winning() {
+    if ( hScore > gScore ) {
+        win.innerText = "🎉 Home is Winning!! 🥳"
+    } else if ( hScore < gScore ) {
+        win.innerText = "🎉 Guest is Winning!! 🥳"
+    } else
+        win.innerText = "It's a Draw 🎉"
 }
+
+// for (let btn of homeBtn) {
+//     console.log(btn)
+// }
 
 // let btnScore = +btn.innerText;
