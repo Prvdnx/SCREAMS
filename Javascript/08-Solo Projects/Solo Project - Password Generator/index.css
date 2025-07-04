@@ -9,7 +9,7 @@ body {
     height: 678px;
     width: 678px;
     background: #1C1C1C;
-    margin: 15% auto 0;
+    margin: 5% auto 0;
     justify-content: center;
     align-items: center;
 }
@@ -24,7 +24,7 @@ body {
 
 h1 {
     font-size: 40px;
-    font-weight: 900;
+    font-weight: 800;
     margin: 115 0 0 0;
 }
 
@@ -52,9 +52,14 @@ button {
     margin: 0 0 35 0;
 }
 
+#generate-btn:hover {
+    border: 1px solid #2F3E53;
+    box-shadow: 0px 2px 5px lightgray;
+}
+
 #generate-btn, .passwords {
-  font-family: "Inter", sans-serif;
-font-size: 16;
+    font-family: "Inter", sans-serif;
+    font-size: 16;
 }
 
 hr {
