@@ -1,0 +1,39 @@
+body {
+    margin: 0;
+    margin-top: 10%;
+    height: 729px;
+    width: 550px;
+    justify-self: center;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+#convert-head {
+    background: #6943FF;
+    margin: 0;
+}
+
+#input {
+    height: 83px;
+    width: 117px;
+    font-size: 58;
+    font-weight: 900;
+    background: inherit;
+    text-align: center;
+    border: 2px solid #B295FF;
+    border-radius: 5px;
+    margin: 0;
+}
+
+#convert {
+
+}
+
+#all-units {
+    background: #1F2937;
+ }
+
+.unit-head {
+    background: #273549;
+    margin: 0;
+}
