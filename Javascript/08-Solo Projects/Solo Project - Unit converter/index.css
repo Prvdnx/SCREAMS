@@ -6,10 +6,16 @@ body {
     justify-self: center;
     text-align: center;
     color: #FFFFFF;
+    font-family: "Inter", sans-serif;
 }
 
 #convert-head {
     background: #6943FF;
+    height: 285px;
+}
+
+h2 {
+    padding: 33 0 30 0;
     margin: 0;
 }
 
@@ -18,22 +24,47 @@ body {
     width: 117px;
     font-size: 58;
     font-weight: 900;
+    color: #FFFFFF;
     background: inherit;
     text-align: center;
     border: 2px solid #B295FF;
     border-radius: 5px;
-    margin: 0;
+    margin-bottom: 25px;
+}
+
+::placeholder {
+    color: inherit;
+  /* opacity: 1; */
 }
 
 #convert {
-
+    background: #FFFFFF;
+    height: 42px;
+    width: 117px;
+    border: 0;
+    border-radius: 5px;
 }
 
 #all-units {
     background: #1F2937;
+    padding: 36 25;
  }
 
 .unit-head {
     background: #273549;
+    height: 108.57px;
+}
+
+.units {
+    padding-top: 31;
     margin: 0;
 }
+
+.unit-top {
+    margin-top: 23px;
+}
+
+.res {
+    margin-top: 9px;
+}
+
