@@ -1,6 +1,6 @@
 body {
     margin: 0;
-    margin-top: 10%;
+    margin-top: 5%;
     height: 729px;
     width: 550px;
     justify-self: center;
@@ -37,12 +37,19 @@ h2 {
   /* opacity: 1; */
 }
 
-#convert {
+#convert-btn {
     background: #FFFFFF;
     height: 42px;
     width: 117px;
     border: 0;
+    font-weight: 500;
     border-radius: 5px;
+}
+
+#convert-btn:hover {
+    background: #273549; 
+    border: 2px solid #B295FF;
+    color: #FFFFFF;
 }
 
 #all-units {
@@ -58,6 +65,8 @@ h2 {
 .units {
     padding-top: 31;
     margin: 0;
+    color: #CCC1FF;
+    font-size: 20px;
 }
 
 .unit-top {
@@ -66,5 +75,6 @@ h2 {
 
 .res {
     margin-top: 9px;
+    font-size: 14px;
 }
 
