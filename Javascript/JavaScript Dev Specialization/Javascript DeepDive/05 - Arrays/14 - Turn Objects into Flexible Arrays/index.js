@@ -1,5 +1,9 @@
-// for-in loop
+//// for-in loop ////
 // const obj = { one: 1, two: 2 };
+
+// for (const key in obj) {
+//   console.log('key', key);
+// }
 
 // for (const key in obj) {
 //   console.log('value', obj[key]);

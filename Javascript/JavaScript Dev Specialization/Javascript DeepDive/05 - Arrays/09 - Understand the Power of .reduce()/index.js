@@ -20,3 +20,18 @@ const numbers = [1, 2, 3, 4, 5, 6];
 const greaterNumbers = numbers.reduce((acc, num) => num > 3 ? acc.concat(num) : acc, []); // using tenary
 
 console.log(greaterNumbers);
+
+
+
+
+// const newNum = numbers.reduce((acc, num) => {
+//     if (num >= 3) {
+//         acc.push(num * 2);
+//     } else {
+//         acc.push(num);
+//     }
+//     return acc;
+// }, []);
+
+// console.log('doubled numbers', newNum);
+// console.log('numbers', numbers);
