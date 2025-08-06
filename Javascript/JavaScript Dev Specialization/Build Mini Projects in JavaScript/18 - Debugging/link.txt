@@ -1,3 +1,6 @@
 
 JavaScript Errors
 https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Errors
+
+The Firefox JavaScript Debugger
+https://firefox-source-docs.mozilla.org/devtools-user/debugger/
