@@ -1,5 +1,5 @@
-import propertyForSaleArr from '/properties/propertyForSaleArr'
-import placeholderPropertyObj from '/properties/placeholderPropertyObj'
+import propertyForSaleArr from './properties/propertyForSaleArr.js'
+import placeholderPropertyObj from './properties/placeholderPropertyObj.js'
 
 function getPropertyHtml(propertyArr = [placeholderPropertyObj]) {
     return propertyArr.map(property => {
@@ -13,7 +13,7 @@ function getPropertyHtml(propertyArr = [placeholderPropertyObj]) {
         const totalRoomSizeM2 = roomsM2.reduce((total, current) => total + current)
         return `
             <section class="card">
-                <img src="/images/${image}">
+                <img src="./images/${image}">
                 <div class="card-right">
                     <h2>${propertyLocation}</h2>
                     <h3>${priceGBP}</h3>
@@ -24,4 +24,5 @@ function getPropertyHtml(propertyArr = [placeholderPropertyObj]) {
     }).join('')
 }
 
-document.getElementById('container').innerHTML = getPropertyHtml()
+// document.getElementById('container').innerHTML = getPropertyHtml()
+document.getElementById('container').innerHTML = getPropertyHtml(propertyForSaleArr)
