@@ -39,7 +39,7 @@ function MyAwesomeNavbar() {
     )
 }
 
-/**
+/*
  * Challenge:
  * Create your very first custom React component!
  * Call it "MainContent", and have it return a simple
