@@ -7,3 +7,11 @@ https://github.com/nvm-sh/nvm
 
 Node version management utility for Windows
 https://github.com/coreybutler/nvm-windows
+
+ReactFacts Project - Figma
+https://www.figma.com/design/xA1rJVQOorqMW6xjGdBLcI/ReactFacts?node-id=0-1&p=f&t=Bd1afWkA1ltj8wMU-0
+https://www.figma.com/design/eIFnRNpMONH7wRuYUCPEZO/ReactFacts--Copy-?node-id=0-4&t=hyB8RBwSAYmmFoUd-0
+
+
+
+
