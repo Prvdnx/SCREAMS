@@ -21,5 +21,7 @@ https://www.figma.com/design/5ZAHL8BvNJtLVTEnmrCKbI/Chef-Claude--Copy-?node-id=0
 https://www.figma.com/design/73iyU720zWmrWgJsok5tYE/Chef-Claude?node-id=1-972&t=U7uDb04hvpztf1RF-0
 https://www.figma.com/proto/73iyU720zWmrWgJsok5tYE/Chef-Claude?node-id=1-972&t=FlwVw7UCqr1O4Q1t-1
 
+React Event Handler
+https://react.dev/reference/react-dom/components/common#mouseevent-handler
 
 
