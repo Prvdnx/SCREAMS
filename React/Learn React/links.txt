@@ -24,4 +24,5 @@ https://www.figma.com/proto/73iyU720zWmrWgJsok5tYE/Chef-Claude?node-id=1-972&t=F
 React Event Handler
 https://react.dev/reference/react-dom/components/common#mouseevent-handler
 
-
+Conditional (ternary) operator
+https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Conditional_operator
