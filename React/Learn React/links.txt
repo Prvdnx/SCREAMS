@@ -26,3 +26,6 @@ https://react.dev/reference/react-dom/components/common#mouseevent-handler
 
 Conditional (ternary) operator
 https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Conditional_operator
+
+Forms
+https://react.dev/reference/react-dom/components/form#noun-labs-1201738-(2)
