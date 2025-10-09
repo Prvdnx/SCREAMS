@@ -8,6 +8,8 @@ export default function Main() {
      * ingredient to our list!
      */
 
+    // const ingredients = ["Chicken", "Oregano", "Tomatoes"]
+
     const [ingredients, setIngredients] = React.useState([])
 
     const ingredientsListItems = ingredients.map(ingredient => (
