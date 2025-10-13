@@ -1,0 +1,25 @@
+import React from "react"
+
+export default function App() {
+    const [starWarsData, setStarWarsData] = React.useState({})
+    const [count, setCount] = React.useState(0)
+    
+    // add an item to a list in the database
+    
+    console.log("Rendered!")
+    
+    React.useEffect(() => {
+        console.log("Effect ran")
+        fetch("https://swapi.dev/api/people/1")
+            .then(res => res.json())
+            .then(data => setStarWarsData(data))
+    }, []) // [] compared to []
+    
+    return (
+        <div>
+            <h2>The count is {count}</h2>
+            <button onClick={() => setCount(prevCount => prevCount + 1)}>Add</button>
+            <pre>{JSON.stringify(starWarsData, null, 2)}</pre>
+        </div>
+    )
+}
