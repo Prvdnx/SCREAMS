@@ -1,0 +1,22 @@
+import ReactMarkdown from "react-markdown"
+
+/**
+ * Challenge: See if you can figure out how to use the
+ * react-markdown package to render `props.recipe` as React
+ * elements rather than the plain markdown text.
+ * 
+ * Use the link https://www.npmjs.com/package/react-markdown/v/8.0.6#use directly to the
+ * package's instructions on how to use it.
+ * 
+ * Use the `suggested-recipe-container` class on the <section>
+ * below to get some free styling 🙂
+ */
+
+export default function ClaudeRecipe(props) {
+    return (
+        <section className="suggested-recipe-container" aria-live="polite">
+            <h2>Chef Claude Recommends:</h2>
+            <ReactMarkdown>{props.recipe}</ReactMarkdown>
+        </section>
+    )
+}
