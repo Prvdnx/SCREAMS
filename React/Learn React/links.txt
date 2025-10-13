@@ -32,3 +32,6 @@ https://react.dev/reference/react-dom/components/form#noun-labs-1201738-(2)
 
 Markdown
 https://www.npmjs.com/package/react-markdown/v/8.0.6#use
+
+Escape Hatches, useEffect
+https://react.dev/learn/escape-hatches
