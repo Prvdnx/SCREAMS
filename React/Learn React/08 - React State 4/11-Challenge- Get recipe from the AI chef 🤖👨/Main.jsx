@@ -24,10 +24,17 @@ export default function Main() {
      * package that will render the markdown for us soon.)
      */
 
+    //==== WITH CLAUDE ====//
     async function getRecipe() {
         const recipeMarkdown = await getRecipeFromChefClaude(ingredients)
         setRecipe(recipeMarkdown)
     }
+
+    //==== WITH HUGGING FACE ====//
+    // async function getRecipe() {
+    //     const recipeMarkdown = await getRecipeFromMistral(ingredients)
+    //     setRecipe(recipeMarkdown)
+    // }
 
     function addIngredient(formData) {
         const newIngredient = formData.get("ingredient")

@@ -19,7 +19,8 @@ You are an assistant that receives a list of ingredients that a user has and sug
 const anthropic = new Anthropic({
     // Make sure you set an environment variable
     // for ANTHROPIC_API_KEY
-    apiKey: process.env.ANTHROPIC_API_KEY,
+    apiKey: process.env.REACT_APP_ANTHROPIC_API_KEY,
+    // apiKey: process.env.ANTHROPIC_API_KEY,
     dangerouslyAllowBrowser: true,
 })
 
@@ -39,7 +40,8 @@ export async function getRecipeFromChefClaude(ingredientsArr) {
 
 // Make sure you set an environment variable 
 // for HF_ACCESS_TOKEN
-const hf = new HfInference(process.env.HF_ACCESS_TOKEN)
+const hf = new HfInference(process.env.REACT_APP_HF_ACCESS_TOKEN)
+// const hf = new HfInference(process.env.HF_ACCESS_TOKEN)
 
 export async function getRecipeFromMistral(ingredientsArr) {
     const ingredientsString = ingredientsArr.join(", ")
