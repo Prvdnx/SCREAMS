@@ -30,7 +30,7 @@ export default function Main() {
         setRecipe(recipeMarkdown)
     }
 
-    //==== WITH HUGGING FACE ====//
+    // //==== WITH HUGGING FACE ====//
     // async function getRecipe() {
     //     const recipeMarkdown = await getRecipeFromMistral(ingredients)
     //     setRecipe(recipeMarkdown)
