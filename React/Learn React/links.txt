@@ -38,3 +38,6 @@ https://react.dev/learn/escape-hatches
 
 useEffect
 https://react.dev/reference/react/useEffect
+
+imgflip API
+https://imgflip.com/api
