@@ -35,3 +35,6 @@ https://www.npmjs.com/package/react-markdown/v/8.0.6#use
 
 Escape Hatches, useEffect
 https://react.dev/learn/escape-hatches
+
+useEffect
+https://react.dev/reference/react/useEffect
