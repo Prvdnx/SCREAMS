@@ -28,6 +28,10 @@ Tenzies - Figma
 https://www.figma.com/design/FqsxRUhAaXM4ezddQK0CdR/Tenzies?node-id=0-1&p=f&t=wewkDMggMYztN0jL-0
 https://www.figma.com/design/gwWAVkeGCqjol7fqU2PWdJ/Tenzies--Copy-?node-id=0-1&p=f&t=68Z7ZnMmv0przUtc-0
 
+Assembly Endgame - Figma
+https://www.figma.com/design/VJNO8MeMT3E0B2twQ1HajU/Assembly--Endgame?node-id=0-1&t=rQG680Yit4mcwe9t-0
+https://www.figma.com/design/HZysHTWJ02Si0psKNuWjBN/Assembly--Endgame--Copy-?node-id=0-1&p=f&t=jaTLfDjwTQdWbyWL-0
+
 React Event Handler
 https://react.dev/reference/react-dom/components/common#mouseevent-handler
 
