@@ -48,6 +48,7 @@ export default function AssemblyEndgame() {
         return (
             <span
                 className={className}
+                // className={`chip ${isLanguageLost ? "lost" : ""}`}
                 style={styles}
                 key={lang.name}
             >
