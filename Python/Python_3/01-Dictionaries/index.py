@@ -3,7 +3,7 @@ movie = {
     'year' : 1979,
     'cast' : ['John','Eric','Michael','George','Terry']
 }
-print(movie('budget'))
+# print(movie('budget'))
 print(movie.get('budget'))
 print(movie.get('budget','not found'))
 
