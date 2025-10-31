@@ -1,4 +1,5 @@
 import random
+
 #create a bag with 10 marbles
 bag = ('green','green','green','green','green','black','red','red','red','white')
 #starting amount of money
