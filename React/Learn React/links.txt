@@ -1,6 +1,5 @@
 
-Local Setup w/ Vite
-https://www.coursera.org/learn/learn-react/ungradedWidget/ngAtW/local-setup-w-vite
+Learn react
 
 Node Version Manager
 https://github.com/nvm-sh/nvm

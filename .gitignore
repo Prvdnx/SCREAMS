@@ -27,5 +27,6 @@ Thumbs.db
 # IDE files
 .vscode/
 .idea/
+.qodo
 *.sublime-workspace
 *.sublime-project
