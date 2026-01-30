@@ -1,6 +1,6 @@
 {
-  "name": "Scrim-s03d8it",
-  "description": "https://scrimba.com/advanced-react-c02h/~01a/s0dhskgc7f/head",
+  "name": "project",
+  "description": "project",
   "scripts": {
     "start": "vite",
     "dev": "vite",
