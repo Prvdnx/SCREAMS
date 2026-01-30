@@ -26,7 +26,7 @@ function App() {
       <Toggle>
         <Menu>
           <Toggle.Button>
-            <Menu.Button>Menu</Menu.Button>
+            <Menu.Button>Sports</Menu.Button>
           </Toggle.Button>
           <Toggle.On>
             <Menu.Dropdown>
