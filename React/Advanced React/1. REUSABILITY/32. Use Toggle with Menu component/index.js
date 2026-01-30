@@ -30,9 +30,7 @@ function App() {
           </Toggle.Button>
           <Toggle.On>
             <Menu.Dropdown>
-              {sports.map(sport => (
-                <Menu.Item key={sport}>{sport}</Menu.Item>
-              ))}
+              {sports.map(sport => <Menu.Item key={sport}>{sport}</Menu.Item> )}
             </Menu.Dropdown>
           </Toggle.On>
         </Menu>
