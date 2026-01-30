@@ -14,7 +14,7 @@ Head over to https://vitejs.dev/ to learn more about configuring vite
     - https://www.npmjs.com/package/classnames
     - https://www.npmjs.com/package/clsx
 
-- Avoiding Hasty Abstractions - https://kentcdodds.com/blog/aha-programming
+- Avoiding Hasty Abstractions (AHA) - https://kentcdodds.com/blog/aha-programming
 - Passing Data Deeply with Context - https://react.dev/learn/passing-data-deeply-with-context
 
 
