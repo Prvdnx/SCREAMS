@@ -16,6 +16,8 @@ Head over to https://vitejs.dev/ to learn more about configuring vite
 
 - Avoiding Hasty Abstractions (AHA) - https://kentcdodds.com/blog/aha-programming
 - Passing Data Deeply with Context - https://react.dev/learn/passing-data-deeply-with-context
+- Ref and the DOM - https://react.dev/reference/react/useRef#manipulating-the-dom-with-a-ref
+
 
 
 ##
