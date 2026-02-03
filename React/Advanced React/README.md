@@ -18,6 +18,7 @@ Head over to https://vitejs.dev/ to learn more about configuring vite
 - Passing Data Deeply with Context - https://react.dev/learn/passing-data-deeply-with-context
 - Ref and the DOM - https://react.dev/reference/react/useRef#manipulating-the-dom-with-a-ref
 - MirageJS - https://miragejs.com/, https://github.com/miragejs/miragejs - Mock API data
-
+- Layout Routes - https://reactrouter.com/6.28.0/start/concepts#layout-routes
+- Route Parameters - https://reactrouter.com/6.28.0/start/concepts#route-parameters
 
 ##
