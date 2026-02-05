@@ -12,5 +12,6 @@ Head over to https://vitejs.dev/ to learn more about configuring vite
 - Layout Routes - https://reactrouter.com/6.28.0/start/concepts#layout-routes
 - Route Parameters - https://reactrouter.com/6.28.0/start/concepts#route-parameters
 - Outlet Context - https://reactrouter.com/api/hooks/useOutletContext
+- Search Params - https://reactrouter.com/api/hooks/useSearchParams#usesearchparams
 
 ##
