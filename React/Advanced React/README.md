@@ -27,6 +27,7 @@ Head over to https://vitejs.dev/ to learn more about configuring vite
 - UseLocation - https://reactrouter.com/api/hooks/useLocation
 - UseNavigate - https://reactrouter.com/api/hooks/useNavigate
 - React Router Auth Example - https://github.com/remix-run/react-router/tree/dev/examples/auth
+- Cloud Firestore - https://firebase.google.com/docs/firestore
 
 
 ##
