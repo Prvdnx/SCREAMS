@@ -26,6 +26,7 @@ Head over to https://vitejs.dev/ to learn more about configuring vite
 - URLSearchParams - https://developer.mozilla.org/en-US/docs/Web/API/URLSearchParams
 - UseLocation - https://reactrouter.com/api/hooks/useLocation
 - UseNavigate - https://reactrouter.com/api/hooks/useNavigate
+- React Router Auth Example - https://github.com/remix-run/react-router/tree/dev/examples/auth
 
 
 ##
