@@ -7,3 +7,7 @@ npm start
 
 Head over to https://vitejs.dev/ to learn more about configuring vite
 
+### Useful Links
+- React Developer Tools - https://react.dev/learn/react-developer-tools
+
+
