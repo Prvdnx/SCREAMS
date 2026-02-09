@@ -12,6 +12,7 @@ This repo contains extensive learning materials across multiple web development 
 - Python
 - Accessible Web
 - UI Design Fundamentals
+- Backend Developer Path
 
 ## Purpose
 
