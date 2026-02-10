@@ -1,0 +1,14 @@
+{
+  "name": "contact-management",
+  "description": "Contact Management",
+  "scripts": {
+    "start": "vite",
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "vite": "latest"
+  },
+  "devDependencies": {}
+}
