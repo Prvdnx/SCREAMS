@@ -1,0 +1,14 @@
+{
+  "name": "stock-ticker",
+  "description": "A simple simulation of stock updates with price trend visualization.",
+  "scripts": {
+    "start": "vite",
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "vite": "latest"
+  },
+  "devDependencies": {}
+}

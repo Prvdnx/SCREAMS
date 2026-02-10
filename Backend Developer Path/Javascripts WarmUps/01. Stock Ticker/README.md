@@ -11,4 +11,10 @@ A simple simulation of stock updates with price trend visualization.
   - ⚪ **Same**: Price == Previous
 
 ## How to Run
-Open with a local server (e.g., Live Server) to support ES6 modules.
+- Using **Python**:
+  1. Run `python3 -m http.server` in the project directory.
+  2. Open the URL shown in the terminal (usually `http://localhost:8000`).
+
+- Using **Vite**:
+  1. Run `npx vite` in the project directory.
+  2. Open the URL shown in the terminal (usually `http://localhost:5173`).
