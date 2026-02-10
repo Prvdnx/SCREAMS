@@ -12,9 +12,15 @@ A simple simulation of stock updates with price trend visualization.
 
 ## How to Run
 - Using **Python**:
-  1. Run `python3 -m http.server` in the project directory.
-  2. Open the URL shown in the terminal (usually `http://localhost:8000`).
+  Run `python3 -m http.server` in the project directory. 
+  Open the URL shown in the terminal (usually `http://localhost:8000`).
+
 
 - Using **Vite**:
-  1. Run `npx vite` in the project directory.
-  2. Open the URL shown in the terminal (usually `http://localhost:5173`).
+    ```
+    npm install
+    npm start or npx vite
+    ```
+  Open the URL shown in the terminal (usually `http://localhost:5173`). 
+  Head over to https://vitejs.dev/ to learn more about configuring vite
+
