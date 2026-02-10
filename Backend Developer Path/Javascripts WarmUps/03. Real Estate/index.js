@@ -19,4 +19,8 @@ function getPropertyHtml(propertyArr = [placeholderPropertyObj]) {
     })
 }
 
-document.getElementById('container').innerHTML = getPropertyHtml()
+// uncomment this to display the placeholder property
+// document.getElementById('container').innerHTML = getPropertyHtml()
+
+document.getElementById('container').innerHTML = getPropertyHtml(propertyForSaleArr)
+
