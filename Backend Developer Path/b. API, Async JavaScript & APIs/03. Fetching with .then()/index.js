@@ -7,4 +7,8 @@ fetch('https://dog.ceo/api/breeds/image/random')
         imageElement.alt = 'random dog picture'
         document.getElementById('img-container').appendChild(imageElement)
     })
-    
+
+// practice
+fetch('https://apis.scrimba.com/bored/api/activity')
+    .then(response => response.json())
+    .then(data => console.log(data.activity))
