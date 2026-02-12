@@ -1,6 +1,6 @@
 
 
 ### Useful Links
-https://jsonlint.com/
-
+- JSON Validator: https://jsonlint.com/
+- Dog API: https://dog.ceo/dog-api/
 
