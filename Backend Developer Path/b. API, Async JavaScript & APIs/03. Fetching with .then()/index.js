@@ -8,7 +8,7 @@ fetch('https://dog.ceo/api/breeds/image/random')
         document.getElementById('img-container').appendChild(imageElement)
     })
 
-// practice
-fetch('https://bored-api.appbrewery.com/api/activity')
-    .then(response => response.json())
-    .then(data => console.log(data.activity))
+// // practice
+// fetch('https://bored-api.appbrewery.com/api/activity')
+//     .then(response => response.json())
+//     .then(data => console.log(data.activity))

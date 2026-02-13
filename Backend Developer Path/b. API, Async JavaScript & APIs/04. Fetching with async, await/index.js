@@ -1,5 +1,5 @@
 async function getDogImage() {
-    const response = await fetch('https://apis.scrimba.com/dog.ceo/api/breeds/image/random')
+    const response = await fetch('https://dog.ceo/api/breeds/image/random')
     const data = await response.json()
     const imageElement = document.createElement('img')
     imageElement.src = data.message
@@ -11,3 +11,11 @@ async function getDogImage() {
 getDogImage()
 //SyntaxError: await is only valid in async functions and the top level bodies of modules
 
+// practice
+async function getSuggestion() {
+    const response = await fetch('https://bored-api.appbrewery.com/api/activity')
+    const data = await response.json()
+    console.log(data)
+}
+
+getSuggestion()
