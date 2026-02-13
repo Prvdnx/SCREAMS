@@ -9,6 +9,6 @@ fetch('https://dog.ceo/api/breeds/image/random')
     })
 
 // practice
-fetch('https://apis.scrimba.com/bored/api/activity')
+fetch('https://bored-api.appbrewery.com/api/activity')
     .then(response => response.json())
     .then(data => console.log(data.activity))
